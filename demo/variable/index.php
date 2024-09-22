@@ -10,6 +10,10 @@
         
         echo "<h1>$name $age</h1>";
 
+        /*
+        single quotes cannot be used
+        echo '<h1>$name $age</h1>'; 
+        */
     ?>
 </body>
 </html>
