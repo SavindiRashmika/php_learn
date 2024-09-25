@@ -10,8 +10,9 @@
               <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a href="/" class="<?= urls('/') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> block rounded-md px-3 py-2 text-base font-medium text-white" aria-current="page">Dashboard</a>
               <a href="/about" class="<?= urls('/about') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> block rounded-md px-3 py-2 text-base font-medium hover:bg-gray-700 hover:text-white">about us</a>
+              <a href="/notes" class="<?= urls('/notes') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> block rounded-md px-3 py-2 text-base font-medium  hover:bg-gray-700 hover:text-white">Notes</a>
               <a href="/contact" class="<?= urls('/contact') ? 'bg-gray-900 text-white' : 'text-gray-300' ?> block rounded-md px-3 py-2 text-base font-medium  hover:bg-gray-700 hover:text-white">contact</a>
-          </div>
+            </div>
           </div>
         </div>
         <div class="hidden md:block">

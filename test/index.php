@@ -1,16 +1,18 @@
 <?php
 
 require 'functions.php';
-//require 'router.php';
-
 require 'Database.php';
+require 'Response.php';
+require 'router.php';
 
-$config = require('config.php');
-$db = new Database($config['database']);
+// require 'Database.php';
 
-$id = $_GET['id'];
-$query = "select * from posts where id = :id";
+// $config = require('config.php');
+// $db = new Database($config['database']);
 
-$posts = $db->query($query, [':id' => $id])->fetch();
+// $id = $_GET['id'];
+// $query = "select * from posts where id = :id";
 
-dd($posts);
+// $posts = $db->query($query, [':id' => $id])->fetch();
+
+// dd($posts);
